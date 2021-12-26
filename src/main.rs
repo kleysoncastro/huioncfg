@@ -4,10 +4,12 @@ use std::process;
 
 fn main() {
     
-if let Err(e) = huioncfg::who_xrand() {
+/* if let Err(e) = huioncfg::has_xrand() {
     println!("Command not fund {}", e);
     process::exit(1);
-}
+} */
+
+huioncfg::teste_aplit();
   
 }
 
